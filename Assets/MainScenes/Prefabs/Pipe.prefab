@@ -66,6 +66,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4049218114400304621}
     m_Modifications:
+    - target: {fileID: 97880500617688855, guid: a989ae8465f6e964f877c292fdc89738, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 710834391505040819, guid: a989ae8465f6e964f877c292fdc89738, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -110,11 +114,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1124263520329446263, guid: a989ae8465f6e964f877c292fdc89738, type: 3}
+      propertyPath: m_TagString
+      value: Death Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 2026868083072332115, guid: a989ae8465f6e964f877c292fdc89738, type: 3}
       propertyPath: m_Name
       value: PipeTop
       objectReference: {fileID: 0}
     - target: {fileID: 2026868083072332115, guid: a989ae8465f6e964f877c292fdc89738, type: 3}
+      propertyPath: m_TagString
+      value: Death Zone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904321849281041627, guid: a989ae8465f6e964f877c292fdc89738, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8970156861770502166, guid: a989ae8465f6e964f877c292fdc89738, type: 3}
       propertyPath: m_TagString
       value: Death Zone
       objectReference: {fileID: 0}
@@ -132,6 +148,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4049218114400304621}
     m_Modifications:
+    - target: {fileID: 3580537830293564460, guid: b382cb4a384aac0419f0d0d6313c0c4b, type: 3}
+      propertyPath: m_TagString
+      value: Death Zone
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917647371307493601, guid: b382cb4a384aac0419f0d0d6313c0c4b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780265045899169613, guid: b382cb4a384aac0419f0d0d6313c0c4b, type: 3}
+      propertyPath: m_TagString
+      value: Death Zone
+      objectReference: {fileID: 0}
     - target: {fileID: 4904879661167282569, guid: b382cb4a384aac0419f0d0d6313c0c4b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -174,6 +202,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4904879661167282569, guid: b382cb4a384aac0419f0d0d6313c0c4b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519015965676981037, guid: b382cb4a384aac0419f0d0d6313c0c4b, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5903136934480940393, guid: b382cb4a384aac0419f0d0d6313c0c4b, type: 3}

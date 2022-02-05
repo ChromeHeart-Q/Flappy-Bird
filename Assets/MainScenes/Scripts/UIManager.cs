@@ -12,9 +12,6 @@ public class UIManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-    }
-    void Start()
-    {
         score = 0;
         txtScore = transform.GetChild(1).transform.GetChild(1).GetComponent<Text>();
         txtScore.text = score.ToString();

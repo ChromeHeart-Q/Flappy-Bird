@@ -29,10 +29,14 @@ public class MapRender : MonoBehaviour
         IMPOSSIBLE,
     }
 
+    // GAME STATE
+    public bool isPlaying;
+
     void Awake()
     {
         lstPipeClone = new List<Pipe>();
         pipeCount = 0;
+        isPlaying = true;
         SetDifficulty(GetDifficulty());
     }
     
@@ -83,8 +87,11 @@ public class MapRender : MonoBehaviour
 
     void Update()
     {
-        PipeController();
-        SpawnController();
+        if(isPlaying == true)
+        {
+            PipeController();
+            SpawnController();
+        }
     }
 
     // CONTROL WHEN TO SPAWN A PIPE, DIFFICULTY
